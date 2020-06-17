@@ -1,0 +1,28 @@
+title: "Simple Script Step Example"
+summary: "Simple Script Step Example"
+description: "This example shows how to wrap a script step up into a bitrise step for reuse"
+website: https://github.com/DamienBitrise/bitrise-script-step-example
+source_code_url: https://github.com/DamienBitrise/bitrise-script-step-example
+support_url: https://github.com/DamienBitrise/bitrise-script-step-example/issues
+host_os_tags:
+  - osx-10.10
+  - ubuntu-16.04
+type_tags:
+  - utility
+  
+project_type_tags:
+  - android
+  - ios
+
+is_always_run: false
+is_skippable: false
+
+inputs:
+  - message:
+    opts:
+      title: Message to print out
+      summary: This message input will be printed to the console
+      description: This is a sample description
+      is_required: true
+      is_sensitive: false
+
